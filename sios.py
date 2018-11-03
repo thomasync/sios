@@ -25,7 +25,7 @@ def cls():
 cls()
 
 # Fichier à récupérer
-studentsBefore = open("sios.json", "r+")
+studentsBefore = open("sios.json", "w+")
 infoFile = os.stat("sios.json")
 studentsBefore.seek(0, 0)
 
